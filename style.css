@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.container{
+    width:380px;
+    height:380px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3px;
+    padding: 3px;
+}
+.box{
+    background-color: black;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    font-size: 90px;
+}
+#status{
+    margin-top: 8px;
+    color: red;
+    font-size: 30px;
+}
+#restart{
+    width:120px;
+    height:30px;
+    margin-top: 8px;
+    font-size: 22px;
+}
